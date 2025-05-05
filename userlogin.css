@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #E1D7B7; /* Soft beige background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the login form */
+.input {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Heading of the form */
+h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Input field container */
+.box-input {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.box-input i {
+    color: #007bff;  /* Icon color */
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.box-input input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.box-input input:focus {
+    outline: none;
+    border: 2px solid #55679C;
+    background-color: #fff;
+}
+
+/* Button styling */
+button.btn-input {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    background-color: #55679C;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.btn-input:hover {
+    background-color: #55679C;
+}
+
+/* Bottom text for registration link */
+.bottom {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.bottom a {
+    color: #55679C;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.bottom a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design */
+@media screen and (max-width: 480px) {
+    .input {
+        padding: 20px;
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    button.btn-input {
+        padding: 12px;
+    }
+
+    .box-input input {
+        padding: 10px;
+    }
+}
+.admin-button {
+    background-color:#55679C  ; /* Dark gray background */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 5px; /* Slightly rounded corners */
+    padding: 10px 15px; /* Padding for button size */
+    cursor: pointer; /* Pointer cursor for interactivity */
+    text-align: center;
+    margin-top: 10px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.admin-button:hover {
+    background-color: #55679C; /* Slightly lighter gray on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+    transform: translateY(-2px); /* Slight upward movement */
+}
+
+.admin-button:active {
+    background-color: #55679C; /* Darker gray when pressed */
+    transform: translateY(0); /* Reset movement */
+}

@@ -1,0 +1,179 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9; /* Soft background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form Container */
+.input {
+    background-color: #ffffff;
+    padding: 40px 50px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Heading Style */
+h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Form Field Container */
+.box-input {
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 12px;
+}
+
+/* Input Styling */
+.box-input input, .box-input select {
+    width: 60%;
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    background-color: #fafafa;
+    transition: all 0.3s ease;
+}
+
+/* Input Focus Effect */
+.box-input input:focus, .box-input select:focus {
+    border: 2px solid #007bff;
+    background-color: #fff;
+    outline: none;
+}
+
+/* Icon inside Input */
+.box-input i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #007bff;
+}
+
+/* Button Styling */
+button.btn-input {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    color: white;
+    background-color: #8EACCD;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button.btn-input:hover {
+    background-color: #0056b3;
+}
+
+/* Bottom Text */
+.bottom {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.bottom a {
+    color: #8EACCD;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+.bottom a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .input {
+        padding: 30px 20px;
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    button.btn-input {
+        padding: 12px;
+    }
+
+    .box-input input, .box-input select {
+        padding: 10px;
+    }
+}
+
+/* Style for the Divisi dropdown container */
+.divisi {
+    margin-bottom: 20px;
+}
+
+/* Styling the label */
+.divisi label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Style the select dropdown */
+.divisi select {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: #fafafa;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Focus effect for select */
+.divisi select:focus {
+    border-color: #007bff;
+    background-color: #fff;
+    outline: none;
+}
+
+/* Style for the options */
+.divisi select option {
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Hover effect for options */
+.divisi select:hover {
+    border-color: #0056b3;
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+    .divisi select {
+        padding: 10px;
+    }
+}

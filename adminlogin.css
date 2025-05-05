@@ -1,0 +1,90 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    background-color: #A6AEBF;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+
+}
+
+/* Container styling */
+.input {
+    background-color: #C5D3E8;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    text-align: center;
+}
+
+.input h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Box input styling */
+.box-input {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.box-input i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #333;
+}
+
+.box-input input {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.box-input input:focus {
+    border-color: #333;
+    outline: none;
+}
+
+/* Button styling */
+.btn-input {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn-input:hover {
+    background-color: #555;
+}
+.bottom {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.bottom a {
+    color: #55679C;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.bottom a:hover {
+    text-decoration: underline;
+}
